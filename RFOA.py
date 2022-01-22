@@ -71,7 +71,7 @@ def rfoa(populationSize, dimension, iterations,L,R):
         for i in range(len(foxes)):
             if np.random.uniform(0,1)>0.75:
                 phi=[]
-                for i in range(dimension):
+                for xx in range(dimension):
                     phi.append(np.random.uniform(0,2*3.14))
                 r=np.random.uniform(0,1)
 
